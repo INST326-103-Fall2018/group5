@@ -579,7 +579,6 @@ def game():
                         break
                     else:
                         print("Oh bother, looks like you're too tubby to run away. Probably all that honey you've been eating.")
-
 	print("A zombie approaches you, get ready to fight")
 	zombie1 = Zombies()
 	zombie2 = Zombies()
