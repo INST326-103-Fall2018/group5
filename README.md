@@ -15,6 +15,6 @@ Created by: Brianna Beshkin, Timothy Park, Shyam Patel, Andrew Pettit, Anant Ven
 - Fight zombies! Strength increases base damage, intelligence increases critical chance, and stamina increases chance for an extra attack
 - Zombies deal damage based on a random number generator, if your health reaches 0 end the game and prompt restart
 
-***user input values are error tested using while loops
-if you want the game to run faster, change time.sleep(0.04) to time.sleep(0.00) on line 40 in the write_letter function.
-Seems not to work as well in the command prompt***
+- user input values are error tested using while loops
+- if you want the game to run faster, change time.sleep(0.04) to time.sleep(0.00) on line 40 in the write_letter function.
+- Seems not to work as well in the command prompt***
