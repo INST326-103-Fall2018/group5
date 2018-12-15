@@ -587,7 +587,7 @@ def game():
 	print("While you were fending off the first zombie another one leaps to attack you")
 	combat(skills, zombie2, weapons)
 	arnold = BossZombies("Arnold Schwarzenegger")
-	print("You've almost escaped the horde but a gargantuan zombie touting the name " + arnold.getName() + " is blocking your path.\nget ready for a difficult fight")
+	print("You've almost escaped the horde but a gargantuan zombie touting the name " + arnold.getName() + " is blocking your path. Get ready for a difficult fight")
 	combat(skills, arnold, weapons)
 
 	restart()
