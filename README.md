@@ -17,4 +17,4 @@ Created by: Brianna Beshkin, Timothy Park, Shyam Patel, Andrew Pettit, Anant Ven
 
 - user input values are error tested using while loops
 - if you want the game to run faster, change time.sleep(0.04) to time.sleep(0.00) on line 40 in the write_letter function.
-- Seems not to work as well in the command prompt***
+- Had a few issues with tabs/spaces, they seem to be gone now but hopefully won't come up again when you try running it
