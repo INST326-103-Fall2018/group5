@@ -580,17 +580,17 @@ def game():
                     else:
                         print("Oh bother, looks like you're too tubby to run away. Probably all that honey you've been eating.")
 	
-	print("A zombie approaches you, get ready to fight")
-	zombie1 = Zombies()
-	zombie2 = Zombies()
-	combat(skills, zombie1, weapons)
+    print("A zombie approaches you, get ready to fight")
+    zombie1 = Zombies()
+    zombie2 = Zombies()
+    combat(skills, zombie1, weapons)
 	print("While you were fending off the first zombie another one leaps to attack you")
 	combat(skills, zombie2, weapons)
-	arnold = BossZombies("Arnold Schwarzenegger")
-	print("You've almost escaped the horde but a gargantuan zombie touting the name " + arnold.getName() + " is blocking your path. Get ready for a difficult fight")
-	combat(skills, arnold, weapons)
-
-	restart()
+    arnold = BossZombies("Arnold Schwarzenegger")
+    print("You've almost escaped the horde but a gargantuan zombie touting the name " + arnold.getName() + " is blocking your path. Get ready for a difficult fight")
+    combat(skills, arnold, weapons)
+    
+    restart()
     
 if __name__ == '__main__':
     game()
